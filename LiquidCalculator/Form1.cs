@@ -33,5 +33,54 @@ namespace LiquidCalculator
             textBox_result.Text = calculator.Calculate().ToString();
         }
 
+        private void button_volume10_Click(object sender, EventArgs e)
+        {
+            textBox_volume.Text = "10";
+        }
+
+        private void butto_volume30_Click(object sender, EventArgs e)
+        {
+            textBox_volume.Text = "30";
+        }
+
+        private void button_volume_60_Click(object sender, EventArgs e)
+        {
+            textBox_volume.Text = "60";
+        }
+
+        private void button_base0_Click(object sender, EventArgs e)
+        {
+            textBox_base.Text = "0";
+        }
+
+        private void button_shot10_Click(object sender, EventArgs e)
+        {
+            textBox_shot.Text = "10";
+        }
+
+        private void button_shot15_Click(object sender, EventArgs e)
+        {
+            textBox_shot.Text = "15";
+        }
+
+        private void button_shot20_Click(object sender, EventArgs e)
+        {
+            textBox_shot.Text = "20";
+        }
+
+        private void button_strength2_Click(object sender, EventArgs e)
+        {
+            textBox_strength.Text = "2";
+        }
+
+        private void button_strength3_Click(object sender, EventArgs e)
+        {
+            textBox_strength.Text = "3";
+        }
+
+        private void button_strength4_Click(object sender, EventArgs e)
+        {
+            textBox_strength.Text = "4";
+        }
     }
 }
